@@ -27,6 +27,23 @@ Arrays, on the other hand, are better suited to small lists, where the maximum n
 |Deletion(at pos 0) |Order of 1			 |Order of 1          |Order of n           | Order of 1                 |
 
 ```java
-Java has built in Linked List class called - Linked List
+Java has built in Linked List class in java.util package called - Linked List
 It is basically a Doubly linked list. 
 ```
+## Comparision between Array And Linked List.
+* Both Are two Physical Data Structure. Based on these two DS We implment other logical DS like(**Stack, Queues, Tree, Graph, HashTable**)
+* Array- Fixed In Lenght; Linked List- Variable in Lenght
+* Since Array has fixed lenght, the chances of getting perfectly utilize is less, either it will under utilized or not sufficent to store all elements.
+* Space- Array has less Space utilization,equal to number of elements while Linked list occupy **Extra** pointer space.
+* Accessibility - Array can be access randomly; while Linked list has sequential access.
+* Faster Access - Array - direct 
+* Insert/Deletiom At 0(Left hand side):-  Array 0(n) (Shifting Required); Linked List 0(1)(No Shifting required)
+* Insert/Deletion At n(Right hand side):- Array 0(1) ; Linked List 0(n)
+* **Movement** of data is involved with Array,so if integer say 2 byte we need to move but for complec onject 1000 byte may need to move. So Array is costly here.
+* Searching:-
+	**Array** - 	Linear Search takes 0(n) ; Binary Search takes 0(log n)
+	**Linked List** Linear Search takes 0(n) ; Binary Search takes 0(nlog n)
+	So Binary Search is costly in Linked List.
+* Insertion Sort and Merge sort are more friendly to Linked List, while most other sorting are friendly to Array.
+
+
