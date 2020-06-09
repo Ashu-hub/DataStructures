@@ -3,17 +3,17 @@
 * A Linked List is varible in size unlike Array, which has fixed size.
 
 ## Advantages of Linked List Over Array
-..* Dynamic size.
-..* Ease of insertion/deletion.
-..* Less Memory wastage due to dynamic memory allocation.
+* Dynamic size.
+* Ease of insertion/deletion.
+* Less Memory wastage due to dynamic memory allocation.
 
 ## Advantages of Array Over Linked List
-..* Array Allows Random Access to the elements, as it works on Index.
-..* Linked List also uses more storage space in memory as each node contains data and reference.
+* Array Allows Random Access to the elements, as it works on Index.
+* Linked List also uses more storage space in memory as each node contains data and reference.
 
 ```java
 Linked lists should be used for large lists of data where the total number of items in the list is changing/not known in advance. 
-Arrays, on the other hand, are better suited to small lists, where the maximum number of items that could be on the list is known ```
+Arrays, on the other hand, are better suited to small lists, where the maximum number of items that could be on the list is known. ```
 
 ## Comparision of Linear Linked List, Doubly Linked List, Circular Linked list, Circular Doubly Linked List
 
