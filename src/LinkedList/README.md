@@ -13,7 +13,8 @@
 
 ```java
 Linked lists should be used for large lists of data where the total number of items in the list is changing/not known in advance. 
-Arrays, on the other hand, are better suited to small lists, where the maximum number of items that could be on the list is known. ```
+Arrays, on the other hand, are better suited to small lists, where the maximum number of items that could be on the list is known. 
+```
 
 ## Comparision of Linear Linked List, Doubly Linked List, Circular Linked list, Circular Doubly Linked List
 
@@ -27,4 +28,5 @@ Arrays, on the other hand, are better suited to small lists, where the maximum n
 
 ```java
 Java has built in Linked List class called - Linked List
-It is basically a Doubly linked list. ```
+It is basically a Doubly linked list. 
+```
