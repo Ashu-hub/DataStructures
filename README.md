@@ -59,3 +59,5 @@ So List is ADT, as it can be easily created using Array or Linked List, without 
  
  [Circular Linked List](https://github.com/Ashu-hub/DataStructures/tree/master/src/LinkedList/CircularLinkedList)
  
+ [Trees](https://github.com/Ashu-hub/DataStructures/tree/master/src/Trees)
+ 
