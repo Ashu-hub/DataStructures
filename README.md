@@ -1,4 +1,3 @@
-# DataStructures
 # Data Structure:-
 	Arrangement of data in a particular fashion.
 
