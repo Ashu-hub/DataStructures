@@ -1,4 +1,4 @@
-package Searching.n2Algorithms;
+package Sorting.n2Algorithms;
 
 import java.util.Arrays;
 

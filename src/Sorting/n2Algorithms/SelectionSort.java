@@ -1,4 +1,4 @@
-package Searching.n2Algorithms;
+package Sorting.n2Algorithms;
 
 import java.util.Arrays;
 //Concept:- We select an index/position and find out the element for the that position.
