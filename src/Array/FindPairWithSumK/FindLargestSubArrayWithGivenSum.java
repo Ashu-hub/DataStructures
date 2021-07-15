@@ -5,10 +5,10 @@ public class FindLargestSubArrayWithGivenSum {
 	
 	public static void main(String[] args) {
 		/*
-		 * int[] arr = { 5, 6, -5, 5, 3, 5, 3, -2, 0 }; int sum = 8;
+		 * int[] arr = { 5, 6, -5, 5, 3, 5, 3, -2, 0 }; int sum = 7;
 		 */
 		int[] arr = { 2, 3, 5, 1, 5, 2, 5, -2, 4 }; 
-		int sum = 7;
+		int sum = 6;
 		findPair(arr, sum);
 	}
 

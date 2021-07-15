@@ -11,18 +11,18 @@ public class IterativeMergeSort {
 	}
 
 	private static void iMergeSort(int[] a, int n) {
-		int p;
-		for (p = 2; p <= n; p = p * 2) {
-			for (int i = 0; i + p - 1 < n; i = i + p) {
+		int pass;
+		for (pass = 2; pass <= n; pass = pass * 2) {
+			for (int i = 0; i + pass - 1 < n; i = i + pass) {
 				
 				int low = i;
-				int high = i + p - 1;
+				int high = i + pass - 1;
 				int mid = (low + high) / 2;
 				merge(a, low, mid, high);
 			}
 		}
-		if (p / 2 < n) {
-			merge(a, 0, p / 2 - 1, n - 1);
+		if (pass / 2 < n) {
+			merge(a, 0, pass / 2 - 1, n - 1);
 		}
 	}
 

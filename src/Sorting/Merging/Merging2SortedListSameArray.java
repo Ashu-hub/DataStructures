@@ -2,10 +2,10 @@ package Sorting.Merging;
 
 import java.util.Arrays;
 
-public class Mergin2ListSameArray {
+public class Merging2SortedListSameArray {
 
 	public static void main(String[] args) {
-		int a[] = { 2, 5, 8, 12, 3, 6, 7, 10 };// this Contains 2 sorted listfrom index = 4
+		int a[] = { 2, 5, 8, 12, 3, 6, 7, 10 };// this Contains 2 sorted list from index = 4
 		int mid = (a.length - 1) / 2;
 		merge(a, 0, mid, a.length - 1);
 		System.out.println(Arrays.toString(a));

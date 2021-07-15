@@ -26,17 +26,17 @@ public class BinarySearch {
 		System.out.println("Binary Search using Recussion-"+ result);
 	}
 
-	private static int binSearchByRecurssion(int[] arr, int l, int h, int key) {
-		if (l < h) {
+	private static int binSearchByRecurssion(int[] arr, int low, int high, int key) {
+		if (low < high) {
 
-			int mid = (l + h) / 2;
+			int mid = (low + high) / 2;
 
 			if (key == arr[mid]) {
 				return mid;
 			} else if (key < arr[mid]) {
-				return binSearchByRecurssion(arr, l, mid - 1, key);
+				return binSearchByRecurssion(arr, low, mid - 1, key);
 			}
-			return binSearchByRecurssion(arr, mid + 1, h, key);
+			return binSearchByRecurssion(arr, mid + 1, high, key);
 		}
 		return -1;
 	}
