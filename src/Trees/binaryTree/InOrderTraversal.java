@@ -1,8 +1,16 @@
 package Trees.binaryTree;
 
 import Trees.binaryTree.CreateBinaryTree.TreeNode;
+//WAP to create following Tree
+/*
+		1
+	   / \
+	  2   3
+	 / \
+	4   5 
+*/
 
-//WAP for InOrder Traversal
+//WAP for InOrder Traversal= Left root right
 //Output should be - 4 2 5 1 3
 public class InOrderTraversal {
 
@@ -14,11 +22,12 @@ public class InOrderTraversal {
 	}
 
 	private static void inOrderTraverse(TreeNode root) {
-		if (root != null) {
+		if (root == null) {
+			return;
+		}
 			inOrderTraverse(root.lChild);
 			System.out.print(root.data + " ");
 			inOrderTraverse(root.rChild);
-		}
 
 	}
 //Time Complexity is 0(n)
