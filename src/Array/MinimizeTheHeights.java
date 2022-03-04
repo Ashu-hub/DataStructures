@@ -40,6 +40,7 @@ public class MinimizeTheHeights {
 		// TODO Auto-generated method stub
 		int arr[] = { 3, 9, 12, 16, 20 };
 		int k = 3;
+		
 		System.out.println(getMinDiff(arr, arr.length, k));
 	}
 
