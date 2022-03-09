@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class SortOs1s2s {
 //Dutch National Flag algo
 	//0(n), 0(1)
+	//It works on the assumption that all the element left side of low are 0s, all element right side of high are 2s 
 	public static void main(String[] args) {
 		int[] arr = { 2, 0, 1, 2, 0, 1 };
 		sortit(arr);

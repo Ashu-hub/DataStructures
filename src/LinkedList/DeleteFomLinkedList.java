@@ -64,7 +64,7 @@ public class DeleteFomLinkedList {
 		list = insert(list, 2);
 		display(list);
 		// delete 14
-		list = delete(list, 1);
+		list = delete(list, 14);
 		display(list);
 	}
 }

@@ -1,5 +1,5 @@
 package LinkedList;
-
+//Smiliar/Correct solution  @ https://www.youtube.com/watch?v=iRtLEoL-r-g 
 public class ReverseUsingSlidingPointer {
 	Node head;
 
@@ -63,5 +63,32 @@ public class ReverseUsingSlidingPointer {
 		list = reverseList(list);
 		display(list);
 	}
-
+/*
+ * Best solution:
+ *   public ListNode reverseList(ListNode head) {
+        ListNode newHead = null;
+        ListNode next = null;
+        
+        while(head != null){
+            next = head.next;
+            head.next= newHead;
+            newHead = head;
+            head = next;
+        }
+        return newHead;
+    }
+    //https://leetcode.com/problems/reverse-linked-list/submissions/
+     * 
+     * Recursion method:
+     * 
+     * public ListNode reverseList(ListNode head) {
+     *  return reverseListRecurrsively(head, null);
+     * }
+     * 	 public ListNode reverseListRecurrsively(ListNode head, ListNode newHead){
+        if(head == null) return newHead;
+     ListNode next = head.next;   
+        head.next= newHead;
+        return reverseListRecurrsively(next, head);
+    }
+ */
 }

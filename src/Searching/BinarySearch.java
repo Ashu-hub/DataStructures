@@ -1,4 +1,4 @@
-package Array.Search;
+package Searching;
 //WAP to search an element from an array.
 
 //PreRequisite:- Elements must be unique and sorted.
@@ -13,6 +13,10 @@ Best case = 0(1) // element is found at mid
 Worst Case = 0(logn)
 
 Point to remember= Successive Multiplication is power. Successive division is log.
+
+why to use Binary search: Supose there is array of size 10 lakh andthe element to be searched is not present it the array. In that case we need to perform 10lakh comparison to find the element.
+Binary search can do it in log n time - iin 20 operation only.
+So whenever there is a sorted and unique element, think of binary search. 
 */
 public class BinarySearch {
 
