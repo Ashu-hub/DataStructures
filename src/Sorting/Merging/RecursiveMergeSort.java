@@ -4,7 +4,7 @@ import java.util.Arrays;
 //Time Complexity = nlogn
 //Space COmplexity = n+logn(Extra Space.)
 public class RecursiveMergeSort {
-
+//Merge sort is a divide n conqure algo 
 	public static void main(String[] args) {
 		int a[] = { 8, 2, 9, 6, 5, 3, 7, 4 };
 		rMergeSort(a, 0, a.length - 1);
